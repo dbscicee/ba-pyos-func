@@ -1,8 +1,11 @@
-def print_hi(name):
+import explore
+
+def display(name):
     print(f'Hi, {name}')
+    explore.calculate_pi()
 
 if __name__ == '__main__':
-    print_hi('Bala')
+    display('Bala')
 
 
 # This represents the list features
