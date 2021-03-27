@@ -1,8 +1,6 @@
-def calculate_pi():
-    print('Test')
 
 
-# List ordered, mutable
+# List ordered, mutable , allows duplictae
 def displayList():
     testList1 = ["Test1", "Test11", "Test111"]
     testList2 = list(("Test2", "Test22", "Test222"))
@@ -17,8 +15,19 @@ def displayList():
     for _ in range(10):
         print(testList1)
 
+# Access List
 
-#  Tuple ordered, immutable
+def accesslist():
+    mylist = [56,76,89,23,58,32,63,93,62,31,72,51,45,89]
+    print (mylist[1])
+    print(mylist[-1])
+    print(mylist[2:7])
+    print(mylist[:4])
+    print(mylist[5:])
+    print(mylist[-4:-1])
+
+
+#  Tuple ordered, immutable ( Unchangeable) , allows duplicate
 def displayTuple():
     testTuple1 = ("T1", "T11", "T111")
     testTuple2 = tuple(("T2", "T22", "T222"))
@@ -34,7 +43,7 @@ def displayTuple():
         print(testTuple2)
 
 
-# Set , unordered immutable
+# Set , unordered, unindexed,  immutable , doest not allow duplicates
 def displaySet():
     testSet1 = {"T1", "T11", "T111"}
     testSet2 = set({"T2", "T22", "T222"})
@@ -50,7 +59,7 @@ def displaySet():
         print(testSet2)
 
 
-# Dictionary , map
+# Dictionary , map , unordered, mutable , does not allow duplicates
 def displayDict():
     testDict1 = {"t1": "high", "t2": "low", }
     testDict2 =dict({"s1": "big", "s2": "small", })

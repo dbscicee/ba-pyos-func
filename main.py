@@ -2,7 +2,6 @@ import explore
 
 def display(name):
     print(f'Hi, {name}')
-    explore.calculate_pi()
 
 #__name__ is dunder name or double underscore
 if __name__ == '__main__':
@@ -11,4 +10,5 @@ if __name__ == '__main__':
 #explore.displayList()
 #explore.displayTuple()
 #explore.displaySet()
-explore.displayDict()
+#explore.displayDict()
+explore.accesslist()
