@@ -5,6 +5,7 @@ def displayList():
     testList1 = ["Test1", "Test11", "Test111"]
     testList2 = list(("Test2", "Test22", "Test222"))
     testList1[2] = "test5"
+    testList1[1:3] = ["test3", "test4"]
     print("The List Values are ", testList1)
     print("The length of the list are ", len(testList1))
     print("The type of the list are", type(testList1))
