@@ -43,6 +43,11 @@ def displayTuple():
     print("The Tuple Values are ", testTuple2)
     print("The length of the Tuple are ", len(testTuple2))
     print("The type of the Tuple are", type(testTuple2))
+    # This will replace the index values
+    testTuple1[2] = "test5"
+    testTuple1[1:3] = ["test3", "test4"]
+    testTuple1.append("new")
+    testTuple1.append(1, "old")
 
     for _ in range(10):
         print(testTuple2)
