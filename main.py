@@ -10,5 +10,5 @@ if __name__ == '__main__':
 #explore.displayList()
 #explore.displayTuple()
 #explore.displaySet()
-#explore.displayDict()
+explore.displayDict()
 explore.accesslist()
