@@ -29,6 +29,7 @@ def accesslist():
     print(mylist[2:7])
     print(mylist[:4])
     print(mylist[5:])
+    print(mylist[3:])
     print(mylist[-4:-1])
 
 
