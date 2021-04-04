@@ -7,8 +7,8 @@ def display(name):
 if __name__ == '__main__':
     display('Bala')
 
-#explore.displayList()
-#explore.displayTuple()
-#explore.displaySet()
+explore.displayList()
+explore.displayTuple()
+explore.displaySet()
 explore.displayDict()
 explore.accesslist()
