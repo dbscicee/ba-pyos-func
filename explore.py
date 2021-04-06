@@ -84,3 +84,6 @@ def displayDict():
 
     for _ in range(10):
         print(testDict2)
+
+        for _ in range(25):
+            print(testDict1)
