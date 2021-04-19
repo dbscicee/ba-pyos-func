@@ -53,6 +53,8 @@ def displayTuple():
     for _ in range(10):
         print(testTuple2)
 
+    for _ in range(20):
+        print(testTuple1)
 
 # Set , unordered, unindexed,  immutable , doest not allow duplicates
 def displaySet():
