@@ -8,7 +8,7 @@ def displayList():
     testList1[2] = "test5"
     testList1[1:3] = ["test3", "test4"]
     testList1.append("new")
-    testList1.append(1, "old")
+    testList1.append("old")
     # if you give one variable between1:3 , then it will replace everything value between 1st to 3rd index
     print("The List Values are ", testList1)
     print("The length of the list are ", len(testList1))
@@ -48,7 +48,7 @@ def displayTuple():
     testTuple1[2] = "test5"
     testTuple1[1:3] = ["test3", "test4"]
     testTuple1.append("new")
-    testTuple1.append(1, "old")
+    testTuple1.append("old")
 
     for _ in range(10):
         print(testTuple2)
@@ -89,3 +89,4 @@ def displayDict():
 
         for _ in range(25):
             print(testDict1)
+
