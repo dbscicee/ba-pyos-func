@@ -1,5 +1,6 @@
 import explore
 import arithmetic
+import exercise
 
 def display(name):
     print(f'Welcome, {name}')
@@ -8,9 +9,11 @@ def display(name):
 if __name__ == '__main__':
     display('Chakravarthi')
 
-explore.displayList()
+#explore.displayList()
 #explore.displayTuple()
 #explore.displaySet()
 #explore.displayDict()
 #explore.accesslist()
-arithmetic.printgreatnumber()
+#arithmetic.printgreatnumber()
+
+exercise.goShopping()
