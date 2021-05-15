@@ -7,7 +7,7 @@ def display(name):
 
 #__name__ is dunder name or double underscore
 if __name__ == '__main__':
-    display('Chakravarthi')
+    display('test')
 
 #explore.displayList()
 #explore.displayTuple()
