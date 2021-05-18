@@ -1,13 +1,14 @@
 import explore
 import arithmetic
 import exercise
+import loopcheck
 
 def display(name):
     print(f'Welcome, {name}')
 
 #__name__ is dunder name or double underscore
 if __name__ == '__main__':
-    display('test')
+    display('Balaji Keshavan')
 
 #explore.displayList()
 #explore.displayTuple()
@@ -16,4 +17,5 @@ if __name__ == '__main__':
 #explore.accesslist()
 #arithmetic.printgreatnumber()
 
-exercise.goShopping()
+#exercise.goShopping()
+loopcheck.printnumber()
