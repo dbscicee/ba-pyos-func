@@ -2,6 +2,7 @@ import explore
 import arithmetic
 import exercise
 import loopcheck
+import checkclass
 
 def display(name):
     print(f'Welcome, {name}')
@@ -18,4 +19,5 @@ if __name__ == '__main__':
 #arithmetic.printgreatnumber()
 
 #exercise.goShopping()
-loopcheck.printnumber()
+#loopcheck.printnumber()
+
